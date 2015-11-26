@@ -1,5 +1,5 @@
 #scrollbar {
-	background: #035F70; /* TO CHANGE */
+	 /* TO CHANGE */
 	bottom: 0;
 	left: 0;
 	position: fixed;
@@ -8,7 +8,7 @@
 	z-index: 999;
 }
   #scrollbar #scrollcursor {
-  	background: #054C58; /* TO CHANGE */
+  	background: rgba(92, 175, 18, 0.98); /* TO CHANGE */
   	cursor: pointer;
   	height: 50px;
   	left: 0;
@@ -32,14 +32,19 @@
     	left: 30px;
     	position: absolute;
     	top: -5px;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+			color: #fff;
+			font-size: 1.3em;
     }
     #scrollbar #scrolllinks li a:hover {
     	color: rgba(0,0,0,0.69);
     	font-weight: 900;
     }
     #scrollbar #scrolllinks li.active a {
-    	color: rgba(0,0,0,0.69);
+    	color: rgba(0,0,0,0.8);
     	font-weight: "900";
+			background: rgba(255, 255, 255, 0.37);
+			text-shadow:none;
     }
 .unselectable {
   -webkit-touch-callout: none;

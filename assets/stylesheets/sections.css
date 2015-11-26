@@ -14,7 +14,7 @@ section.fixed h1,section.fixed h2 {
 	bottom: auto;
 	color: white;
 	font-size: 2.875rem;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 300;
 	left: 50%;
 	max-width: 1170px;
@@ -53,7 +53,34 @@ section.fixed h1,section.fixed h2 {
 
   section.fixed.f2 {
     background-image: url("../images/f1.jpg");
+		padding: 0 0 160px 0;
   }
+		section.fixed.f2 p.title {
+			bottom: auto;
+			color: white;
+			font-size: 2.875rem;
+			font-size: 40px;
+			font-weight: 300;
+			left: 50%;
+			max-width: 1170px;
+			moz-transform: translateX(-50%);
+			ms-transform: translateX(-50%);
+			o-transform: translateX(-50%);
+			position: absolute;
+			right: auto;
+			text-align: center;
+			text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+			bottom: 0;
+			transform: translateX(-50%);
+			webkit-transform: translateX(-50%) ;
+			width: 90%;
+		}
+		section.fixed.f2 img {
+			max-width: 100%;
+		}
+		section.fixed.f2 p {
+			text-align: center;
+		}
 
 /*
  * general design for sections (scrolling ones)
@@ -67,8 +94,9 @@ section.scrolling {
 }
 section .container {
 	margin: 0 auto;
-	max-width: 768px;
+	max-width: 1200px;
 	width: 90%;
+	text-align: justify;
 }
 section .container::after {
 	clear: both;
@@ -80,7 +108,9 @@ section .container::after {
 	 * design for each scrolling sectiona
 	 */
 	section.scrolling.s2 img {
-		max-width: 100%;
+		float:right;
+		width: 500px;
+		padding: 0 0 20px 20px;
 	}
 	section.scrolling.s3 {
 		background-color: #d52121;
