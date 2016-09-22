@@ -2,17 +2,20 @@
 	 * design for each fixed sections
 	 */
   section.fixed.f1 {
-  	background-image: url("../images/f1.jpg");
+  	background-image: url("../images/background.jpg");
   }
 
   section.fixed.f2 {
-    background-image: url("../images/f1.jpg");
-		padding: 0 0 160px 0;
+    background-image: url("../images/background.jpg");
   }
 
 		section.fixed.f2 p {
 			text-align: center;
 		}
+    section.fixed.f2 h3 {
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    }
 
 	/*
 	 * design for each scrolling sectiona

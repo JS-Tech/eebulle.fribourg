@@ -6,9 +6,10 @@
 	top: 0;
 	width: 40px;
 	z-index: 999;
+	background: #95a2c6;
 }
   #scrollbar #scrollcursor {
-  	background: rgba(92, 175, 18, 0.98); /* TO CHANGE */
+  	background: rgb(124, 115, 133); /* TO CHANGE */
   	cursor: pointer;
   	height: 50px;
   	left: 0;
@@ -34,16 +35,15 @@
     	top: -5px;
 			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
 			color: #fff;
-			font-size: 1.3em;
     }
     #scrollbar #scrolllinks li a:hover {
     	color: rgba(0,0,0,0.69);
-    	font-weight: 900;
+    	font-weight: bold;
     }
     #scrollbar #scrolllinks li.active a {
     	color: rgba(0,0,0,0.8);
-    	font-weight: "900";
-			background: rgba(255, 255, 255, 0.37);
+    	/*font-weight: bold;*/
+			color: #bd7f12;
 			text-shadow:none;
     }
 .unselectable {
