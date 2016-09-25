@@ -23,7 +23,7 @@
 	 section.scrolling.s1 .video {
 		 text-align: center;
 	 }
-	section.scrolling.s2 img {
+	section.scrolling.s2 iframe {
 		float:right;
 		width: 500px;
 		padding: 0 0 20px 20px;
